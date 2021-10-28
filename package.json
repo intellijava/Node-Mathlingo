@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/intellijava/Node-Mathlingo/issues"
   },
-  "homepage": "https://github.com/intellijava/Node-Mathlingo#readme"
+  "homepage": "https://github.com/intellijava/Node-Mathlingo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
