@@ -1,10 +1,11 @@
 {
-  "name": "node-mathlingo",
+  "name": "mathlingo",
   "version": "1.0.0",
   "description": "This project is Node.js part of the main project Mathlingo and includes all the necessary backend operations required for the Mathlingo.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/intellijava/Node-Mathlingo#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2"
   }
 }
