@@ -21,10 +21,28 @@ npm install body-parser
 4. Installera sqlite
 npm install sqlite3
 
-5. Installera cors (Behövs inte i nuläget men när man anänvder Vue CLI då man startar upp en lokal webbserver på ett annat port-nummer behöver man lösa att cors)
+5. Installera cors (man startar upp en lokal webbserver på ett annat port-nummer behöver man lösa att cors)
 (https://expressjs.com/en/resources/middleware/cors.html)
 npm install cors
 -----
 
 Kör koden i ett terminalfönster i samma katalog
 node server.js
+
+Port nummer: 3000
+
+use cases:
+1. registrera ett user med Json object som body. (POST)
+http://127.0.0.1:3000/api/user
+
+2. hämta all users (GET)
+http://127.0.0.1:3000/api/user
+
+3. hämta ett user (GET)
+   http://127.0.0.1:3000/api/user/:id
+
+5. radera ett konto/user(DELETE)
+http://127.0.0.1:3000/api/user/:id
+
+6. uppdatera ett konto/user(PUT)
+   http://127.0.0.1:3000/api/user/:id
